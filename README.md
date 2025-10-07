@@ -8,7 +8,7 @@
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Vishal123' -p 1433:1433 --name sql1 -d mcr.microsoft.com/mssql/server:2022-latest
 
   When you’ve changed your data model (like adding a new entity class or modifying a property) and created a migration with:
-  * dotnet ef migrations add <MigrationName>
+  * dotnet ef migrations add <Migration_name>
   
   that migration only generates the code describing the changes — it doesn’t actually touch your database yet.
 
