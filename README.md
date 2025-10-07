@@ -2,7 +2,7 @@
 * Run project - dotnet run
 * Build project - dotnet build
 * Check version - dotnet --version
-* List of dotner sdks installed - dotnet --list-sdks
+* List of dotnet sdks installed - dotnet --list-sdks
 
   docker command to run sql server container - 
 docker run -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Vishal123' -p 1433:1433 --name sql1 -d mcr.microsoft.com/mssql/server:2022-latest
